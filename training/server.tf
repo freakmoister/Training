@@ -1,5 +1,5 @@
 resource "intersight_server_profile" "server1" {
-  name = "Training"
+  name = "qiayu-Training"
   action = "No-op"
   tags {
     key = "server"
