@@ -13,5 +13,5 @@ variable "api_endpoint" {
 variable "organization" {
   type = string
   description = "Organization Name"
-  default = "default"
+  default = "Melbourne_LAB"
 }
