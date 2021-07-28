@@ -14,7 +14,7 @@ provider "intersight" {
   endpoint      = var.api_endpoint
 }
 data "intersight_organization_organization" "organization_moid" {
-  name = "default"
+  name = "Melbourne_LAB"
 }
 
 output "organization_moid" {
