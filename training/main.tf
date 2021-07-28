@@ -13,8 +13,10 @@ provider "intersight" {
   secretkey     = var.api_private_key
   endpoint      = var.api_endpoint
 }
+
+## Get the MO data for the default organization in the account.
 data "intersight_organization_organization" "organization_moid" {
-  name = "Melbourne_LAB"
+  name = "default"
 }
 
 output "organization_moid" {
