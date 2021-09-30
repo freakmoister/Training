@@ -1,4 +1,4 @@
-resource "intersight_server_profile" "server1_testfromgit" {
+resource "intersight_server_profile" "server1" {
   name = "SP_from_GitHub"
   action = "No-op"
   tags {
