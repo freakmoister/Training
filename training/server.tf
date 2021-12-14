@@ -1,9 +1,9 @@
 resource "intersight_server_profile" "server1" {
-  name = "SP_from_GitHub_New"
+  name = "SP_from_GitHub_ChangeName"
   action = "No-op"
   tags {
     key = "server"
-    value = "demo"
+    value = "demo_example"
   }
   organization {
     object_type = "organization.Organization"
