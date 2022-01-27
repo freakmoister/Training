@@ -1,5 +1,5 @@
 resource "intersight_server_profile" "server1" {
-  name = "SP_from_GitHub_ChangeName"
+  name = "SP_from_GitHub_ChangeName_2"
   action = "No-op"
   tags {
     key = "server"
